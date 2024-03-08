@@ -29,4 +29,4 @@ def logisticregression():
     
     # save a plot of the loss curve during training
 
-# np.array(list)
+# utils doesnt work!

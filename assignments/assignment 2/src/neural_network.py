@@ -49,9 +49,9 @@ def neuralnetwork():
 
     # making a neural network classifier
     classifier = MLPClassifier(activation = "logistic",
-                            hidden_layer_sizes = (20,), # 20 neurons in our hidden layer
+                            hidden_layer_sizes = (25,), # 25 neurons in our hidden layer
                             max_iter=1000, # 1000 epochs
-                            random_state = 42) # random state for reproducibility
+                            random_state = 9) # random state for reproducibility
 
     # fit the classifier to the data
     classifier.fit(X_preprocess_train, y_train)

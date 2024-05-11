@@ -1,1 +1,0 @@
-The code allows you to pick a file from the cds-vis-data folder's collection of flower images. It will then extract a histogram for the chosen image and compare it with the histogram of all of the flower images in the dataset. Using this comparison, the 5 most similar images will be shown in a dataframe, which can be found in the output folder.
